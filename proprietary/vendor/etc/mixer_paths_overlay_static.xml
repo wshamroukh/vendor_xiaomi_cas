@@ -895,6 +895,7 @@
        <ctl name="RCV ASPRX2 Slot Position" value="2" />
        <ctl name="RCV ASPTX Ref" value="Ref" />
        <ctl name="Cirrus SP Usecase Config" value="None" />
+       <ctl name="Mi_Ultrasound Rx Device" value="1"/>
     </path>
 
     <path name="speaker-mono">
@@ -967,6 +968,7 @@
         <ctl name="RCV Fast Use Case Delta File" value="rcv_voice_delta.txt"/>
         <ctl name="RCV Boost Class-H Tracking Enable" value="0" />
         <ctl name="RCV Boost Target Voltage" value="50" />
+        <ctl name="Mi_Ultrasound Rx Device" value="0"/>
     </path>
 
     <path name="handset-mic">
