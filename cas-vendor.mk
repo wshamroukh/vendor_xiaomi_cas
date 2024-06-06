@@ -755,15 +755,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/firmware/Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Flute_RTP.bin \
     vendor/xiaomi/cas/proprietary/vendor/firmware/Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fresh_RTP.bin \
     vendor/xiaomi/cas/proprietary/vendor/firmware/Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Frog_RTP.bin \
-    vendor/xiaomi/cas/proprietary/vendor/firmware/gfcas.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gfcas.b00 \
-    vendor/xiaomi/cas/proprietary/vendor/firmware/gfcas.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gfcas.b01 \
-    vendor/xiaomi/cas/proprietary/vendor/firmware/gfcas.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gfcas.b02 \
-    vendor/xiaomi/cas/proprietary/vendor/firmware/gfcas.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gfcas.b03 \
-    vendor/xiaomi/cas/proprietary/vendor/firmware/gfcas.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gfcas.b04 \
-    vendor/xiaomi/cas/proprietary/vendor/firmware/gfcas.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gfcas.b05 \
-    vendor/xiaomi/cas/proprietary/vendor/firmware/gfcas.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gfcas.b06 \
-    vendor/xiaomi/cas/proprietary/vendor/firmware/gfcas.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gfcas.b07 \
-    vendor/xiaomi/cas/proprietary/vendor/firmware/gfcas.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gfcas.mdt \
     vendor/xiaomi/cas/proprietary/vendor/firmware/Gesture_Back_Pull_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_Back_Pull_RTP.bin \
     vendor/xiaomi/cas/proprietary/vendor/firmware/Gesture_Back_Release_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_Back_Release_RTP.bin \
     vendor/xiaomi/cas/proprietary/vendor/firmware/Gesture_UpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_UpSlide_RTP.bin \
