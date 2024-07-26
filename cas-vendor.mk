@@ -7,8 +7,16 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
+    vendor/xiaomi/cas/proprietary/system/lib64/libjsoncpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjsoncpp.so \
+    vendor/xiaomi/cas/proprietary/system/lib64/libpng.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpng.so \
+    vendor/xiaomi/cas/proprietary/system/lib64/libsqlite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsqlite.so \
+    vendor/xiaomi/cas/proprietary/system/lib64/libutilscallstack.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libutilscallstack.so \
     vendor/xiaomi/cas/proprietary/system/lib64/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libyuv.so \
     vendor/xiaomi/cas/proprietary/system/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.dolby.hardware.dms@2.0.so \
+    vendor/xiaomi/cas/proprietary/system/lib/libjsoncpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjsoncpp.so \
+    vendor/xiaomi/cas/proprietary/system/lib/libpng.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpng.so \
+    vendor/xiaomi/cas/proprietary/system/lib/libsqlite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsqlite.so \
+    vendor/xiaomi/cas/proprietary/system/lib/libutilscallstack.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libutilscallstack.so \
     vendor/xiaomi/cas/proprietary/system/lib/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libyuv.so \
     vendor/xiaomi/cas/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/cas/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -1065,6 +1073,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/firmware/vibrator_firmware_aidl/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/98_nfcCardSlow_RTP.bin \
     vendor/xiaomi/cas/proprietary/vendor/firmware/vibrator_firmware_aidl/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vibrator_firmware_aidl/9_ringTone4_P_RTP.bin \
     vendor/xiaomi/cas/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
+    vendor/xiaomi/cas/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
@@ -1072,6 +1081,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
+    vendor/xiaomi/cas/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/camera/com.qti.actuator.cas_ofilm_ultra_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.actuator.cas_ofilm_ultra_dw9800.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/camera/com.qti.eeprom.cas_ofilm_imx350_gt24p64b.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.cas_ofilm_imx350_gt24p64b.so \
@@ -1407,6 +1417,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.3.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/vndk/libxlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libxlog.so \
     vendor/xiaomi/cas/proprietary/vendor/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0-impl.so \
+    vendor/xiaomi/cas/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
     vendor/xiaomi/cas/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
     vendor/xiaomi/cas/proprietary/vendor/lib64/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg.so \
     vendor/xiaomi/cas/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
