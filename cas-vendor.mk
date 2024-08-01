@@ -1069,6 +1069,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
     vendor/xiaomi/cas/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
+    vendor/xiaomi/cas/proprietary/vendor/lib/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpiex.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
@@ -1437,6 +1438,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0-impl.so \
     vendor/xiaomi/cas/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
     vendor/xiaomi/cas/proprietary/vendor/lib64/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg.so \
+    vendor/xiaomi/cas/proprietary/vendor/lib64/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpiex.so \
     vendor/xiaomi/cas/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
     vendor/xiaomi/cas/proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-3.9.1.so \
     vendor/xiaomi/cas/proprietary/vendor/lib64/camera/com.qti.actuator.cas_ofilm_ultra_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.actuator.cas_ofilm_ultra_dw9800.so \
