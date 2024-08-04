@@ -1381,6 +1381,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/lib/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libsoc_helper_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper_jni.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
+    vendor/xiaomi/cas/proprietary/vendor/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_amrnb_common.so \
+    vendor/xiaomi/cas/proprietary/vendor/lib/libstagefright_enc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_enc_common.so \
+    vendor/xiaomi/cas/proprietary/vendor/lib/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_flacdec.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
     vendor/xiaomi/cas/proprietary/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
@@ -2175,7 +2178,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/xiaomi/cas/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
     vendor/xiaomi/cas/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql \
-    vendor/xiaomi/cas/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
+    vendor/xiaomi/cas/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql 
 
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
