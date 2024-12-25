@@ -7,8 +7,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
-    vendor/xiaomi/cas/proprietary/system/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/ibstagefright_amrnb_common.so \
-    vendor/xiaomi/cas/proprietary/system/lib64/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/ibstagefright_amrnb_common.so \
+    vendor/xiaomi/cas/proprietary/system/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_amrnb_common.so \
+    vendor/xiaomi/cas/proprietary/system/lib64/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_amrnb_common.so \
     vendor/xiaomi/cas/proprietary/system/lib64/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libyuv.so \
     vendor/xiaomi/cas/proprietary/system/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.dolby.hardware.dms@2.0.so \
     vendor/xiaomi/cas/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
