@@ -8,8 +8,12 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
     vendor/xiaomi/cas/proprietary/system/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libldacBT_abr.so \
+    vendor/xiaomi/cas/proprietary/system/lib/android.frameworks.stats-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.frameworks.stats-V1-ndk.so \
+    vendor/xiaomi/cas/proprietary/system/lib/android.frameworks.stats@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.frameworks.stats@1.0.so \
     vendor/xiaomi/cas/proprietary/system/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libldacBT_enc.so \
     vendor/xiaomi/cas/proprietary/system/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_amrnb_common.so \
+    vendor/xiaomi/cas/proprietary/system/lib64/android.frameworks.stats-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.frameworks.stats-V1-ndk.so \
+    vendor/xiaomi/cas/proprietary/system/lib64/android.frameworks.stats@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.frameworks.stats@1.0.so \
     vendor/xiaomi/cas/proprietary/system/lib64/libldacBT_abr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libldacBT_abr.so \
     vendor/xiaomi/cas/proprietary/system/lib64/libldacBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libldacBT_enc.so \
     vendor/xiaomi/cas/proprietary/system/lib64/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_amrnb_common.so \
