@@ -331,7 +331,6 @@
     <ctl name="HPHL_RDAC Switch" value="0" />
     <ctl name="HPHR_RDAC Switch" value="0" />
     <ctl name="AUX_RDAC Switch" value="0" />
-    <ctl name="RDAC3_MUX" value="ZERO" />
     <ctl name="RX_EAR Mode" value="OFF" />
 
     <!-- change the default value for sav -->
@@ -343,7 +342,6 @@
     <ctl name="ADC2_MIXER Switch" value="0" />
     <ctl name="ADC3_MIXER Switch" value="0" />
     <ctl name="ADC4_MIXER Switch" value="1" />
-    <ctl name="ADC2 MUX" value="ZERO" />
     <ctl name="DEC0_BCS Switch" value="0" />
     <ctl name="TX_AIF1_CAP Mixer DEC0" value="0" />
     <ctl name="TX_AIF1_CAP Mixer DEC1" value="0" />
@@ -3005,7 +3003,6 @@
 
     <path name="hph-hifi-mode">
         <ctl name="RX_HPH_PWR_MODE" value="LOHIFI" />
-        <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
     </path>
 
     <path name="headphones-hifi-filter">
