@@ -44,8 +44,8 @@ SpkrLeft VISENSE Switch:1
 SpkrRight VISENSE Switch:1
 SpkrLeft SWR DAC_Port Switch:1
 SpkrRight SWR DAC_Port Switch:1
-WSA_RX0 Digital Volume:62
-WSA_RX1 Digital Volume:62
+WSA_RX0 Digital Volume:92
+WSA_RX1 Digital Volume:92
 WSA_CDC_DMA_RX_0 Audio Mixer MultiMedia1:1
 
 disable

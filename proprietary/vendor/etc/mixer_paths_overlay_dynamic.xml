@@ -31,8 +31,8 @@
     <path name="headphones">
         <ctl name="HPHL Volume" value="20" />
         <ctl name="HPHR Volume" value="20" />
-        <ctl name="RX_RX0 Digital Volume" value="72" />
-        <ctl name="RX_RX1 Digital Volume" value="72" />
+        <ctl name="RX_RX0 Digital Volume" value="92" />
+        <ctl name="RX_RX1 Digital Volume" value="92" />
     </path>
 
     <path name="voice-headphones">
