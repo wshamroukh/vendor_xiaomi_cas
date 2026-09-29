@@ -2225,7 +2225,6 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     qcrilhook \
     qcrilmsgtunnel \
-    qti-telephony-common \
     QtiTelephony \
     QtiTelephonyService \
     SoterService \
